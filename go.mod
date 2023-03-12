@@ -3,8 +3,12 @@ module go-cookie
 go 1.19
 
 require (
-	github.com/gorilla/securecookie v1.1.1 // indirect
-	github.com/labstack/echo v3.3.10+incompatible // indirect
+	github.com/gorilla/securecookie v1.1.1
+	github.com/gorilla/sessions v1.2.1
+	github.com/labstack/echo v3.3.10+incompatible
+)
+
+require (
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
